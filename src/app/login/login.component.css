@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;500;700&display=swap');
+
+.body{
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  right: 0;
+  background-color: #f8f32b;
+  display: block;
+  font-family: 'Comfortaa', cursive;
+}
+
+nav{
+  width: 100%;
+  margin: 0;
+  background-color: darkblue;
+  font-weight: bold;
+}
+
+h1{
+  font-weight: bolder;
+}
+
+.row{
+  --bs-gutter-x: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.fondo{
+  background-color: #f8f32b;
+}
+
+
+.col-md-6{
+  display: flex;
+  justify-content: center;
+  padding: 0;
+}
+
+.card{
+  align-items: center;
+  background-color: white;
+  width: 25rem;
+  height: 30rem;
+}
+
+footer{
+  bottom: 0;
+  position: fixed;
+  width: 100%;
+  background-color: darkblue;
+  font-weight: bold;
+}
+
+.material-icons{
+  font-size: 35px;
+  align-items: center;
+  color: rgba(49,49,49,1);
+
+padding-right: 5px}
